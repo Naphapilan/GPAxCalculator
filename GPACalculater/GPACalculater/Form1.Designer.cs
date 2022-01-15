@@ -60,7 +60,7 @@
             this.button1.Location = new System.Drawing.Point(619, 41);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 34);
-            this.button1.TabIndex = 1;
+            this.button1.TabIndex = 2;
             this.button1.Text = "ADD";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -70,7 +70,7 @@
             this.textBoxGPA_input.Location = new System.Drawing.Point(400, 44);
             this.textBoxGPA_input.Name = "textBoxGPA_input";
             this.textBoxGPA_input.Size = new System.Drawing.Size(150, 31);
-            this.textBoxGPA_input.TabIndex = 2;
+            this.textBoxGPA_input.TabIndex = 1;
             // 
             // textBoxGPAx
             // 
@@ -78,6 +78,7 @@
             this.textBoxGPAx.Name = "textBoxGPAx";
             this.textBoxGPAx.Size = new System.Drawing.Size(150, 31);
             this.textBoxGPAx.TabIndex = 3;
+            this.textBoxGPAx.TabStop = false;
             // 
             // button2
             // 
@@ -85,6 +86,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(112, 34);
             this.button2.TabIndex = 4;
+            this.button2.TabStop = false;
             this.button2.Text = "CLEAR";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -123,6 +125,7 @@
             this.textBoxMinName.Name = "textBoxMinName";
             this.textBoxMinName.Size = new System.Drawing.Size(150, 31);
             this.textBoxMinName.TabIndex = 12;
+            this.textBoxMinName.TabStop = false;
             // 
             // textBoxMaxName
             // 
@@ -130,6 +133,7 @@
             this.textBoxMaxName.Name = "textBoxMaxName";
             this.textBoxMaxName.Size = new System.Drawing.Size(150, 31);
             this.textBoxMaxName.TabIndex = 11;
+            this.textBoxMaxName.TabStop = false;
             // 
             // label4
             // 
@@ -146,6 +150,7 @@
             this.textBoxMinGPA.Name = "textBoxMinGPA";
             this.textBoxMinGPA.Size = new System.Drawing.Size(150, 31);
             this.textBoxMinGPA.TabIndex = 8;
+            this.textBoxMinGPA.TabStop = false;
             // 
             // label3
             // 
@@ -162,13 +167,14 @@
             this.textBoxMaxGPA.Name = "textBoxMaxGPA";
             this.textBoxMaxGPA.Size = new System.Drawing.Size(150, 31);
             this.textBoxMaxGPA.TabIndex = 6;
+            this.textBoxMaxGPA.TabStop = false;
             // 
             // textBoxName_input
             // 
             this.textBoxName_input.Location = new System.Drawing.Point(211, 47);
             this.textBoxName_input.Name = "textBoxName_input";
             this.textBoxName_input.Size = new System.Drawing.Size(150, 31);
-            this.textBoxName_input.TabIndex = 7;
+            this.textBoxName_input.TabIndex = 0;
             // 
             // textBoxAllData
             // 
@@ -177,6 +183,7 @@
             this.textBoxAllData.Name = "textBoxAllData";
             this.textBoxAllData.Size = new System.Drawing.Size(702, 234);
             this.textBoxAllData.TabIndex = 8;
+            this.textBoxAllData.TabStop = false;
             // 
             // Form1
             // 

@@ -23,7 +23,7 @@ namespace GPACalculater
         {
             this.sum += gpa;
             this .n++;
-            this.alldata += name + "-->" + gpa + Environment.NewLine;
+            this.alldata += name + " " + gpa + Environment.NewLine;
 
             if(this.max < gpa)
             {
